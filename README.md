@@ -16,3 +16,7 @@ Image search engines that quantify the contents of an image are called Content-B
 Method | Precision | Recall | F1-score | SSIM 
 --- | --- | --- | --- | ---
 Global Color Histogram | 0.714 | 0.5 | 0.588 | 0.53 
+--- | --- | --- | --- | ---
+Regional Color Histogram | 0.67 | 0.8 | 0.729 | 0.57 
+--- | --- | --- | --- | ---
+RAG based description | 0.375 | 0.3 | 0.33 | 0.63 
