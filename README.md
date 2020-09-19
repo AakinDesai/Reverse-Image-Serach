@@ -11,6 +11,8 @@ Image search engines that quantify the contents of an image are called Content-B
 3. **Define similarity metric:** Chi-squared distance for Histogram method and Hausdorff’s distance for RAG features are used.
 4. **Searching:** Extract features from image and then apply similarity function to compare the image features to the features already indexed. 
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+### Result
+
+Method | Precision | Recall | F1-score | SSIM 
+--- | --- | --- | --- | ---
+Global Color Histogram | 0.714 | 0.5 | 0.588 | 0.53 
